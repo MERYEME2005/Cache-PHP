@@ -48,7 +48,6 @@ class Cache {
     }
 }
 
-// Gestion simple des requêtes HTTP
 $method = $_SERVER["REQUEST_METHOD"];
 $body = json_decode(file_get_contents("php://input"), true);
 
